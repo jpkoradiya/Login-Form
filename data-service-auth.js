@@ -19,7 +19,7 @@ let User;
 
 module.exports.initialize = function () {
     return new Promise(function (resolve, reject) {
-        let db = mongoose.createConnection("mongodb+srv://dbUser:Jkop@2001@web322a6.dv9u8.mongodb.net/web322a6?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+        let db = mongoose.createConnection("mongodb+srv://dbUser:JigarKoradiya2001@web322a6.dv9u8.mongodb.net/web322a6?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
         db.on('error', (err) => {
             reject(err);
         });
